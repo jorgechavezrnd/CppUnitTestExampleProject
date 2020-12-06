@@ -19,9 +19,11 @@ git clone https://github.com/google/googletest.git
 - Run tst executable: `./tst/ExampleProject_tst`
 
 # Commands for build, deploy, and run executable and tests with make:
-- 📦Build and 🚀deploy: `make`
+- 📦Build and 🚀Deploy: `make`
 - Only 📦Build: `make build`
 - Only 🚀Deploy: `make deploy`
 - 🏃‍♂️Run executable: `make start`
 - 🧪Run tests: `make test`
 - 🧹Clean project: `make clean`
+- 🔨 Dependencies setup: `make setup`
+- 🧹 Clean dependencies: `make clean-dependencies`
