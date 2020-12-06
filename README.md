@@ -9,3 +9,11 @@
 cd lib
 git clone https://github.com/google/googletest.git
 ```
+
+# Commands for compile everything and run
+- `cd build`
+- `cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles"`
+- `make all`
+- Find executables: `find . -executable -type f`
+- Run src executable: `./src/ExampleProject_run`
+- Run tst executable: `./tst/ExampleProject_tst`
